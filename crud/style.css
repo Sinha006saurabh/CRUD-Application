@@ -1,0 +1,119 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('image/student.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px 30px;
+  backdrop-filter: blur(0px); /* No blur now */
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+form input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 30%;
+  min-width: 150px;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+
+form input::placeholder {
+  color: #555;
+}
+
+form button {
+  padding: 12px 24px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  background: rgba(0, 0, 0, 0.4); /* Slight dark overlay for contrast */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+th, td {
+  padding: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+th {
+  background-color: rgba(0, 123, 255, 0.8);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Action Buttons */
+.actions button {
+  margin: 0 5px;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.edit-btn {
+  background: #ffc107;
+  color: #000;
+}
+
+.edit-btn:hover {
+  background: #e0a800;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
